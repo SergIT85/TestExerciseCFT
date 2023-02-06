@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestExerciseCFT</string>
+    <string name="aim">Запросить данные по BIN</string>
+    <string name="bin">Введите BIN</string>
+    <string name="save_request">Предыдущие запросы:</string>
+    <string name="button_request">Запросить</string>
+    <string name="result_text">Результат запроса:</string>
+    <string name="type_scheme_card">Тип (схема):</string>
+    <string name="brand_card">Брэнд:</string>
+    <string name="card_number">Номер:</string>
+    <string name="type_card">Дебет/кредит:</string>
+    <string name="prepaid">Предоплата:</string>
+    <string name="country">Страна:</string>
+    <string name="bank">Банк:</string>
+    <string name="placeholder">Нет данных</string>
+
+
+
+
+</resources>
