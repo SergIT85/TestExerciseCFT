@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TestExerciseCFT</string>
-    <string name="aim">Запросить данные по BIN</string>
-    <string name="bin">Введите BIN</string>
+    <string name="aim">Запросить данные</string>
+    <string name="bin">Введите BIN 8 цифр</string>
     <string name="save_request">Предыдущие запросы:</string>
     <string name="button_request">Запросить</string>
     <string name="result_text">Результат запроса:</string>
