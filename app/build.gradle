@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android-extensions'
+    id "org.jetbrains.kotlin.kapt"
 }
 
 android {
@@ -67,6 +68,7 @@ dependencies {
     // ROOM
 
     implementation("androidx.room:room-runtime:2.4.3")
+    kapt "androidx.room:room-compiler:2.4.3"
 
     // RxJava support for Room
     implementation "androidx.room:room-rxjava2:2.4.3"
