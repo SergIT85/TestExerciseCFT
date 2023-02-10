@@ -15,8 +15,9 @@
     <string name="bank_phone">Телефон банка:</string>
     <string name="placeholder">Нет данных</string>
     <string name="id_request">№ запроса</string>
-
-
+    <string name="latitude">Широта:</string>
+    <string name="longitude">Долгота:</string>
+    <string name="error">Не найдено. Введите другие 8 цифр.</string>
 
 
 </resources>

@@ -20,6 +20,12 @@ data class BinEntity(
     @ColumnInfo(name = "country", defaultValue = R.string.placeholder.toString())
     val country: String,
 
+    @ColumnInfo(name = "latitude", defaultValue = R.string.placeholder.toString())
+    val latitude: String,
+
+    @ColumnInfo(name = "longitude", defaultValue = R.string.placeholder.toString())
+    val longitude: String,
+
     @ColumnInfo(name = "scheme", defaultValue = R.string.placeholder.toString())
     val scheme: String,
     @ColumnInfo(name = "type", defaultValue = R.string.placeholder.toString())

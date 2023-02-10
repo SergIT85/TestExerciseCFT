@@ -16,7 +16,7 @@ class RequestItem(
         viewBinding.country.text = content.country
         viewBinding.scheme.text = content.scheme
         viewBinding.bankName.text = content.bankName
-        Log.d("TAG", "START RequestItem----------------------------------")
+        //Log.d("TAG", "START RequestItem----------------------------------")
         viewBinding.simpleRequest.setOnClickListener {
             onClick.invoke(content)
         }

@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/request_item.xml" value="0.16423357664233576" />
+        <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/activity_recycle_view_in_room.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/request_item.xml" value="0.536" />
         <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/simple_reqest.xml" value="0.175" />
         <entry key="..\:/Users/workp/AndroidStudioProjects/TestExerciseCFT/app/src/main/res/layout/simple_request.xml" value="0.264" />
       </map>

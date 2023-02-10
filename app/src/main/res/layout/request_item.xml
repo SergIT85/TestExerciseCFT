@@ -119,6 +119,36 @@
             <TextView
                 android:layout_marginEnd="@dimen/material_margin_normal"
                 android:gravity="left"
+                android:text="@string/latitude"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/latitude"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/placeholder"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="@dimen/material_margin_normal"
+                android:gravity="left"
+                android:text="@string/longitude"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/longitude"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/placeholder"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="@dimen/material_margin_normal"
+                android:gravity="left"
                 android:text="@string/bank"
                 android:textStyle="bold" />
             <TextView

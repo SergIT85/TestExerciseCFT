@@ -12,6 +12,9 @@ interface BinDao {
     @Delete
     fun delete(binEntity: BinEntity): Completable
 
-    @Query("SELECT * FROM BINENTITY")
+    @Query("SELECT * FROM BinEntity")
     fun getBinEntity(): Single<List<BinEntity>>
+
+    @Query("SELECT * FROM BinEntity WHERE id = :requestId")
+    fun requestFromId(requestId: Int): Single<BinEntity>
 }
