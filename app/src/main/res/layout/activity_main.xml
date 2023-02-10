@@ -174,6 +174,21 @@
                     android:text="@string/placeholder"
                     />
             </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginEnd="@dimen/material_margin_normal"
+                    android:gravity="left"
+                    android:text="@string/bank_phone"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/bank_phone"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="@string/placeholder"
+                    />
+            </TableRow>
         </TableLayout>
 
         <TextView
@@ -187,6 +202,9 @@
             android:id="@+id/save_request_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/material_margin_small"/>
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:layout_marginTop="@dimen/material_margin_small"
+            tools:listitem="@layout/simple_request"/>
     </LinearLayout>
 </RelativeLayout>

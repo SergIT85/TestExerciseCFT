@@ -128,5 +128,20 @@
                 android:text="@string/placeholder"
                 />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="@dimen/material_margin_normal"
+                android:gravity="left"
+                android:text="@string/bank_phone"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/bank_phone"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="@string/placeholder"
+                />
+        </TableRow>
     </TableLayout>
 </RelativeLayout>
